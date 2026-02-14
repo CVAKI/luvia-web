@@ -242,7 +242,7 @@ function handleDownload(e) {
     // Simulate download
     setTimeout(function() {
         // IMPORTANT: Replace 'app.apk' with your actual APK file path
-        const apkPath = 'main\\apk\\instagram.apk';  // <-- CHANGE THIS TO YOUR APK FILENAME
+        const apkPath = 'main\\luvia.apk';  // <-- CHANGE THIS TO YOUR APK FILENAME
         
         // Create download link
         const link = document.createElement('a');
@@ -534,4 +534,5 @@ function createConfetti() {
     setTimeout(function() {
         confetti.remove();
     }, 5000);
+
 }
